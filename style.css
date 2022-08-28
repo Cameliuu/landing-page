@@ -1,0 +1,21 @@
+header{
+    background-color: #2E0249;
+    width: 100%;
+}
+
+.links
+{
+    height: auto;
+    display:flex;
+    color: #A91079;
+    justify-content: right;
+}
+.link{
+    margin-left: auto;
+}
+.links .logo{
+    margin-right:auto;
+}
+
+
+
