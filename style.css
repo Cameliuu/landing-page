@@ -6,7 +6,7 @@ html,body{
     overflow-x:hidden;
 }
 .header{
-    background-color: #2E0249;
+    background-color: #090057;
     width: 100%;
     height:45%;
 }
@@ -48,21 +48,20 @@ html,body{
 }
 .cafeu{
 
-    height: 250px;
-    width:500px;
+    height: 230px;
+    width:230px;
     float:right;
     margin-right:15%;
     position:relative;
     top:-80%;
     color:white;
-
 }
 .sign-button{
     color:white;
     display: block;
     width: 50%;
     border: none;
-    background-color: #F806CC;
+    background-color: #C400C6;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
@@ -73,7 +72,7 @@ html,body{
 }
 .information{
     position: relative;
-    top:-30%;
+    top:-25vh;
     width:100%;
     display:flex;
     flex-direction: row;
@@ -87,33 +86,98 @@ html,body{
     justify-content: center;
     gap:75px;
     position:relative;
-    top:-25%;
+    top:-20vh;
 }
 .photo-container .photo{
     height:200px;
     width:200px;
-    border: 4px solid #A91079;
-    border-radius:100%;
+    border: 4px solid #C400C6;
+    border-radius:50%;
 }
-.cafelutsa{
+.info{
     height: 100%;
     width: 100%;
     clip-path: circle();
 }
-.babi{
-    height: 100%;
-    width: 100%;
-    clip-path: circle();
+.qoute-container{
+    height: 40vh;
+    width:100%;
+    margin-top:-10vh;
+    background-color: #57007E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
-.pisu{
-    height: 100%;
-    width: 100%;
-    clip-path: circle();
+.qoute-container .citat
+{
+    color: #FFA069;
+    height: auto;
+    width: 25%;
+    text-align: center;
+    margin-top:20vh;
+    text-size: 36px;
+    font-style: italic;
 }
-.loki{
-    height: 100%;
+.qoute-container .autor
+{
+    margin-top:30vh;
+    font-size:20px;
+    float:right;
+}
+.last-container{
     width: 100%;
-    clip-path: circle();
+    height:30vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.last-container .last-item{
+    height:10vh;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #57007E;
+}
+.last-container .text-bold{
+    margin-left: 10vh;
+    margin-top: 2vh;
+    color:white;
+    font-size:24px
+}
+.last-container .text{
+    margin-left: 10vh;
+    color:white;
+    font-size:14px;
+}
+.sign-button-two{
+    float:right;
+    color:white;
+    display: block;
+    width: 20%;
+    height: auto;
+    background-color: #57007E;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top:-6.5vh;
+    margin-right:8vh;
+}
+.footer-container{
+    height: 20vh;
+    background-color: #090057;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.footer-container .footer-text{
+    margin-top:10vh;
+    color:white;
+    height: 10vh;
+}
 
