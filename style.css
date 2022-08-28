@@ -1,14 +1,22 @@
-header{
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x:hidden;
+}
+.header{
     background-color: #2E0249;
     width: 100%;
+    height:41%;
 }
 
 .links
 {
-    height: auto;
     display:flex;
-    color: #A91079;
+    color: whitesmoke;
     justify-content: right;
+    height:auto;
 }
 .link{
     margin-left: auto;
@@ -16,6 +24,51 @@ header{
 .links .logo{
     margin-right:auto;
 }
+.links .link{
+    color:#9B9999FF;
+}
+.text-flexbox{
+    height: auto;
+    width:20%;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.text-flexbox .title{
+    color: white;
+    font-size: 40px;
+    font-family: extra-bold;
+    font-weight: bolder;
+}
+.text-flexbox .para{
+    color:#9B9999FF;
+    font-size: 18px;
+}
+.cafeu{
+
+    height: 200px;
+    width:400px;
+    float:right;
+    margin-right:20%;
+    position:relative;
+    top:-81%;
+    color:white;
+}
+.sign-button{
+    color:white;
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #F806CC;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
 
 
 
